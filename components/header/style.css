@@ -1,0 +1,33 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+.wrap-logo {
+	flex: 1;
+}
+.img-logo {
+	width: clamp(45px,5vw, 80px);
+	height: auto;
+}
+.navigation {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 8px;
+	& a {
+		text-align: center;
+		text-decoration: none;
+		color: #FFF;
+		font-size: clamp (14px, 3vw , 20px);
+		font-weight: 700;
+	}
+}
+.button-contact {
+	border-radius: 8px;
+	padding: 5px;
+}
+
+

@@ -1,0 +1,19 @@
+.anim-clr {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all  0.1s ease;
+	background: linear-gradient(92deg, #FA8305 2.08%, #FB9E3C 117.25%);
+	cursor: pointer;
+	font-weight: 700;
+	user-select: none;
+}
+.anim-clr:hover {
+	background: #110a0100;
+	color: #FA8305;
+}
+.anim-clr:active {
+	background: linear-gradient(92deg, #FA8305 2.08%, #FB9E3C 117.25%);
+	color: #110a01;
+}
+/*  */

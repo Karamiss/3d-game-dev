@@ -1,0 +1,27 @@
+/* MAIN.CSS */
+html {
+	padding: 12px 3%;
+	color: #FFF;
+	font-size: 16px;
+}
+body {
+	/* outline: solid red; */
+	background: linear-gradient(180deg, #010101 -15.71%, #1A0E01 99.57%);
+	background-size: cover;
+}
+/* text style */
+.fontstyle-title {
+	line-height: 40px;
+	font-size: clamp(28px,5vw, 40px);
+	font-weight: 700;
+}
+.fontstyle-subtitle {
+	line-height: 40px;
+	font-size: clamp(28px,5vw, 32px);
+	font-weight: 700;
+}
+.fontstyle-text {
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 700;
+}
